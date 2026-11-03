@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cozy Cafe</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./app.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="main-title">
+        Welcome to the Cozy Cafe - Where Flavors and Comfort Meet
+      </h1>
+
+      <p>Your neighbourhood cafe in Manama.</p>
+
+      <button id="bg-color-btn">Change Background Colour</button>
+    </header>
+
+    <main>
+      <section>
+        <h2>Cafe Opening Status</h2>
+
+        <p id="cafe-status">Loading cafe information...</p>
+
+        <button id="close-cafe-btn">Close Cafe</button>
+        <button id="open-cafe-btn">Open Cafe</button>
+      </section>
+
+      <section>
+        <h2>Cafe Specialties</h2>
+
+        <ul id="cafe-specialties">
+          <li>
+            Rose Latte:
+            <span class="specialty-status">Loading...</span>
+          </li>
+
+          <li>
+            Pistachio Croissant:
+            <span class="specialty-status">Loading...</span>
+          </li>
+
+          <li>
+            Lotus Cheesecake:
+            <span class="specialty-status">Loading...</span>
+          </li>
+        </ul>
+
+        <button id="restock-croissants-btn">
+          Restock Croissants
+        </button>
+      </section>
+
+      <section>
+        <h2>Our Cafe Moments</h2>
+
+        <img
+          id="main-photo"
+          class="cafe-photo"
+          src="./assets/cafe-counter.jpg"
+          alt="Customers at a cafe counter"
+        >
+
+        <img
+          class="cafe-photo"
+          src="./assets/coffee-and-cake.jpg"
+          alt="Coffee and cakes on a table"
+        >
+
+        <img
+          class="cafe-photo"
+          src="./assets/cappuccino.jpg"
+          alt="A cappuccino beside a notebook"
+        >
+      </section>
+
+      <section>
+        <h2 class="highlight-title">Quote of the Day</h2>
+
+        <p id="quote-of-the-day"></p>
+      </section>
+
+      <section id="blogs">
+        <h2 class="highlight-title">Cafe Adventures</h2>
+
+        <div class="blog-post">
+          <h3>Weekend Brunch Special</h3>
+
+          <p>
+            Our new pistachio pancakes were a crowd favourite!
+          </p>
+        </div>
+
+        <div class="blog-post">
+          <h3>Local Artists Visit</h3>
+
+          <p>
+            Artists from across Bahrain joined us to share
+            their sketchbooks over coffee.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Past Menu Items</h2>
+
+        <ul id="past-menu-items">
+          <li>Vanilla Chai Muffin</li>
+          <li id="fish-tacos">Fish Tacos</li>
+          <li>Spiced Apple Juice</li>
+          <li>Honey Almond Tart</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>Cozy Cafe · Manama, Bahrain</p>
+    </footer>
+  </body>
+</html>
+
